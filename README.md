@@ -16,7 +16,8 @@ In command line run the folllowing six commands:
 6) launch jupyter notebook (for example: `jupyter notebook --ip 0.0.0.0 --port=7643 --no-browser --allow-root&`)
 and open mgenre_final there (paste in browser web link and open file)
 
-Necessary data and pretrained model jupyter notebook contain in cell `data`
+Necessary data and pretrained model jupyter notebook contain in cell `data`. If you once installed it you do not really need run this cell further.
+We strongly recommend to follow the original article and repository to understand how everything works from the inside.
 
 
 
