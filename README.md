@@ -13,7 +13,8 @@ In command line run the folllowing six commands:
 3) clone repository `git clone https://github.com/SergeyPetrakov/mGENRE_MEL`
 4) go to the cloned repository `cd mGENRE_MEL`
 5) install requirements `pip install -r requirements.txt`
-6) launch jupyter notebook and open mgenre_final there
+6) launch jupyter notebook (for example: `jupyter notebook --ip 0.0.0.0 --port=7643 --no-browser --allow-root&`)
+and open mgenre_final there (paste in browser web link)
 
 Necessary data and pretrained model jupyter notebook contain in cell `data`
 
