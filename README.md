@@ -4,6 +4,9 @@ This repository contains files and materials related to multilingual entity link
 This repository is based on https://arxiv.org/abs/2103.12528 where mGENRE model is proposed.
 
 
+## Quickstart
+1) clone repository `git clone 
+`
 
 
 
