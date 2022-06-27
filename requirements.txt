@@ -1,0 +1,14 @@
+python==3.10.4
+torch==1.11.0
+torchvision
+transformers
+omegaconf
+unidecode
+requests
+kilt
+fairseq
+hydra-core
+bitarray
+gdown
+numpy
+wikidata
