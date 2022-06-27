@@ -5,8 +5,17 @@ This repository is based on https://arxiv.org/abs/2103.12528 where mGENRE model 
 
 
 ## Quickstart
-1) clone repository `git clone 
-`
+
+In command line run the folllowing six commands:
+
+1) set new environment `conda create --name new_environment`
+2) activate new environment `conda activate new_environment`
+3) clone repository `git clone https://github.com/SergeyPetrakov/mGENRE_MEL`
+4) go to the cloned repository `cd mGENRE_MEL`
+5) install requirements `pip install -r requirements.txt`
+6) launch jupyter notebook and open nGENRE_final there
+
+Necessary data and pretrained model jupyter notebook contain in cell `data`
 
 
 
