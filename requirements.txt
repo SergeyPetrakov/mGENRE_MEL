@@ -4,7 +4,6 @@ transformers
 omegaconf
 unidecode
 requests
-kilt
 fairseq
 hydra-core
 bitarray
