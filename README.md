@@ -26,10 +26,21 @@ Experiments are provided in `mGENRE_and_Uncertainty_Estimation.ipynb` file, you 
  - Experiments with uncertainty estimation using metrics: `Entropy` on a single model, `Delta`, `Maxprob`, `Predicted entropy`, `Expected entropy` and `BALD` on `Simple Questions`, `RuBQ 2.0` and `Meusli-9` datasets
  
  ## Results
+ 
+ ### Illustrations and tables
 
-File `3_dataset_experiments.pdf` contains rejection curves - visual illustration of uncertainty estimation integrated into model quality assessment. As a numerical measure of unsertainty estimation quality were added two types of ares under rejection curve: absolute (equals to the whole area under curve) and comparative (equals to the area that is higher than quality received on all samples of dataset).
+File `3_dataset_experiments.pdf` contains rejection curves - visual illustration of uncertainty estimation integration into mGENRE quality assessment. As a numerical measure of unsertainty estimation quality were added two types of ares under rejection curve: absolute (equals to the whole area under curve) and comparative (equals to the area that is higher than quality received on all samples of dataset).
 
+### Summary of results
 
+Experiments demonstrate that uncertainty quantification could be efficiently used for the task of entity linking in case of mGENRE model. This is especially obvious for English, German, Russian. Although there are cases when uncertainty estimation does not help, for example for Serbian and in some cases for Javanese, Japanese and Persian.
+The dataset also matters, because the structure differs, for example model may perform better on RUBQ 2.0 and Simple Questions because they consist of short questions of widespread languages (English and Russian).
+There is no significant leader in terms of metric of uncertainty, but every time both for absolute area under rejection curve and area under curve added by uncertainty integration predicted entropy showed the best results among all metrics almost each time as for information received on aggregated AUC data.
+Thus, mGENRE performs well on the task of entity linking even in multilingual case. But end-to-end question answering system could not be realized using only mGENRE, even if we help it with such strong NER as Stanza.
+
+### Conclusion
+I can say that reached initial objectives. I conducted many experiments on entity linking and question answering task for mGENRE model, observed different datasets, types of questions (with single answer or potentially not one answer), checked different languages, quantified uncertainty using various metrics, such as entropy, maxprob, delta, predicted entropy, expected entropy and BALD. Provided quantifiable and comparable results using area under rejective curve approach.
+Talking about the ways how one can take benefits from it, I can say that method of voting algorithms can be used, when we take some algorithms, mark answers they give with some uncertainty measure and choose the answer of the most confident algorithm among all.
 
 
 
