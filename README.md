@@ -27,7 +27,7 @@ Experiments are provided in `mGENRE_and_Uncertainty_Estimation.ipynb` file, you 
  
  ## Results
 
-
+File `3_dataset_experiments.pdf` contains rejection curves - visual illustration of uncertainty estimation integrated into model quality assessment. As a numerical measure of unsertainty estimation quality were added two types of ares under rejection curve: absolute (equals to the whole area under curve) and comparative (equals to the area that is higher than quality received on all samples of dataset).
 
 
 
