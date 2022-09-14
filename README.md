@@ -23,7 +23,7 @@ We strongly recommend to follow the original article and repository to understan
 
 Experiments are provided in `mGENRE_and_Uncertainty_Estimation.ipynb` file, you can find there:
  - Quickstart
- - Experiments with uncertainty estimation using metrics: `Entropy` on a single model, `Delta`, `Maxprob`, `Predicted entropy`, `Expected entropy` and `BALD` on `Simple Questions`, `RuBQ 2.0` and `Meusli-9` datasets
+ - Experiments with uncertainty estimation using metrics: `Entropy` on a single model, `Delta`, `Maxprob`, `Predicted entropy`, `Expected entropy` and `BALD` on `Simple Questions`, `RuBQ 2.0` and `Mewsli-9` datasets
  
 File `mGENRE_and_UE.py` is also provided (repeat results from jupyter notebook `mGENRE_and_Uncertainty_Estimation.ipynb`). The advantage of .py files over jupyter notebooks is that one can launch them for example on the server and be sure in stability of connection for the whole period of experiment that may take hours.
  
