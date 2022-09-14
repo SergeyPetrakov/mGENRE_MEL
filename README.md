@@ -25,6 +25,10 @@ Experiments are provided in `mGENRE_and_Uncertainty_Estimation.ipynb` file, you 
  - Quickstart
  - Experiments with uncertainty estimation using metrics: `Entropy` on a single model, `Delta`, `Maxprob`, `Predicted entropy`, `Expected entropy` and `BALD` on `Simple Questions`, `RuBQ 2.0` and `Meusli-9` datasets
  
+ In order to launch file in a server `mGENRE_and_UE.py` is also provided. The advantage of .py files over jupyter notebooks is that one can launch them for example on the server and be sure in stability of connection for the whole period of experiment that may take hours.
+ 
+ If you want to launch `mGENRE_and_UE.py` script on the remote server running after closing out of SSH you should run `nohup python3 mGENRE_and_UE.py &`
+ 
  ## Results
  
  ### Illustrations and tables
